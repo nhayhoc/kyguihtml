@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 100%;
+}
+.clearfix {
+    clear: both;
+}
+/***************************************************
+                    HEADER
+****************************************************/
+
+.header {
+    width: 100%;
+    background: #42A5F5;
+    height: 64px;
+    box-shadow: 0 0 10px 0 #000;
+    position: relative;
+    z-index: 10;
+}
+.header img, 
+.header .main-nav, 
+.main-nav ul li, 
+.main-nav ul{
+    height: 100%;
+}
+.header img {
+    padding-top: 10px;
+}
+.header .main-nav {
+    float: right;
+}
+.main-nav ul li{
+    transition: background-color .3s;
+    display: inline-block;
+    padding: 22px 15px;
+
+}
+.main-nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+}
+.main-nav i {
+    margin-right:10px;
+}
+
+.main-nav ul li:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+/***************************************************
+                    CONTENT
+****************************************************/
+.content {
+    background-color: #000;
+    background-image: url(http://kygui100.vn/public/img/intro-bg.jpg);
+    background-position: top right; 
+    background-size: cover;
+    height: 100vh;   
+
+
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+.content h1 {
+    padding: 300px 0 20px 0;
+    font-size: 50px;
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}
+.content img{
+    border: 1px solid rgb(255, 152, 0);
+    float: left;
+    background-color: white;
+    width: 5%;
+    height: 60px;
+}
+.content input {
+    border: 2px solid rgb(255, 152, 0);
+    float: left;
+    width: 75%;
+    height: 60px;
+}
+.content button {
+    background-color: rgb(255, 152, 0);
+    border: 2px solid rgb(255, 152, 0);
+    height: 60px;
+    width: 19%;
+    color: white;
+    font-size: 24px;
+}
+.content button i {
+    margin-right: 10px;
+}
+/***************************************************
+                    FOOTER
+****************************************************/
+.footer {
+    position: absolute;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: #42A5F5;
+    height: 134px;
+    border-top: 20px solid #63b2f2 ;
+}
+.footer p {
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
